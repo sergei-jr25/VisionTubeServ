@@ -5,11 +5,11 @@ export const getTypeOrmConfig = async (
 	configService: ConfigService
 ): Promise<TypeOrmModuleOptions> => ({
 	type: 'postgres',
-	host: '176.59.82.198',
+	host: 'dpg-cjd0cr7db61s73ak8ol0-a',
 	port: 5432,
-	database: 'internet_shop',
+	database: 'visionstude',
 	username: 'sergeijr',
-	password: '6okBtYLu851Rr9OhAqauE2vJC9bwVZLF',
+	password: 'gkfjLN5oWm4vwu7aQ2NkYHiNKjepe8IA',
 	autoLoadEntities: true,
 	synchronize: true
 })
