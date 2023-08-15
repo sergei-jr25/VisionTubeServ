@@ -9,8 +9,8 @@ import { FileService } from './file.service'
 	providers: [FileService],
 	imports: [
 		ServeStaticModule.forRoot({
-			rootPath: `${path}/uploads`,
-			serveRoot: '/uploads'
+			rootPath: `${path}/public`,
+			serveRoot: '/public'
 		})
 	]
 })

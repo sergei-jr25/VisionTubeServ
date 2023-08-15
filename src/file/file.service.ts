@@ -8,13 +8,13 @@ export class FileService {
 		mediaFile: Express.Multer.File,
 		folder = 'default'
 	): Promise<any> {
-		const uploadFile = `${path}/uploads/${folder}`
+		const uploadFile = `${path}/public/${folder}`
 		await ensureDir(uploadFile)
 
 		await writeFile(`${uploadFile}/${mediaFile.originalname}`, mediaFile.buffer)
 
 		return {
-			url: `/uploads/${folder}/${mediaFile.originalname}`,
+			url: `/public/${folder}/${mediaFile.originalname}`,
 			name: mediaFile.originalname
 		}
 	}
