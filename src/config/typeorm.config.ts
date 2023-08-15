@@ -5,13 +5,16 @@ export const getTypeOrmConfig = async (
 	configService: ConfigService
 ): Promise<TypeOrmModuleOptions> => ({
 	type: 'postgres',
-	host: 'dpg-cjd0cr7db61s73ak8ol0-a',
+	host: 'ep-floral-mouse-26014417-pooler.eu-central-1.postgres.vercel-storage.com',
 	port: 5432,
-	database: 'visionstude',
-	username: 'sergeijr',
-	password: 'gkfjLN5oWm4vwu7aQ2NkYHiNKjepe8IA',
+	database: 'verceldb',
+	username: 'default',
+	password: '4BxPXGzb2hyc',
 	autoLoadEntities: true,
-	synchronize: true
+	synchronize: true,
+	ssl: {
+		rejectUnauthorized: true
+	}
 })
 // export const getTypeOrmConfig = async (
 // 	configService: ConfigService
