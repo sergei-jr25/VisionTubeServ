@@ -1,5 +1,8 @@
-"rewrites": [
-	{ "source": "/api/users/:path*", "destination": "/api/users/:path*" },
-	{ "source": "/api/video/:path*", "destination": "/api/video/:path*" },
-	{ "source": "/api/file/:path*", "destination": "/api/file/:path*" }
-]
+{
+	"buildCommand": "nest build",
+	"rewrites": [
+		{ "source": "/api/users/:path*", "destination": "/api/users/:path*" },
+		{ "source": "/api/video/:path*", "destination": "/api/video/:path*" },
+		{ "source": "/api/file/:path*", "destination": "/api/file/:path*" }
+	]
+}
