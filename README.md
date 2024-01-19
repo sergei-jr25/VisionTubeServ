@@ -22,7 +22,15 @@
   <!--[![Backers on Open Collective](https://opencollective.com/nest/backers/badge.svg)](https://opencollective.com/nest#backer)
   [![Sponsors on Open Collective](https://opencollective.com/nest/sponsors/badge.svg)](https://opencollective.com/nest#sponsor)-->
 
-## Description
+Серверная часть проекта vision-tube-cient. 
+Полный стек технологий для фронтенда также доступен по  https://github.com/sergei-jr25/online-shop-client.git](https://github.com/sergei-jr25/vision-tube-cient.git
+
+Technology stack
+- NestJS:  
+- Express.js:
+- Postgresql
+- Multer:
+- Passport-jwt:
 
 [Nest](https://github.com/nestjs/nest) framework TypeScript starter repository.
 
